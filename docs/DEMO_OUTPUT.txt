@@ -1,0 +1,19 @@
+{
+  "query": "FastAPI validation",
+  "mode": "all",
+  "count": 1,
+  "hits": [
+    {
+      "document_id": 2,
+      "collection_id": 1,
+      "title": "fastapi",
+      "chunk_number": 0,
+      "text": "# FastAPI study notes FastAPI uses Python type annotations to describe request parameters and response models. Pydantic performs validation for structured request data. Invalid input produces a 422 response. Dependency injection lets routes share database connections and authentication checks. The lifespan context initializes resources when the application starts. Use synchronous route functions for blocking SQLite operations in this project.",
+      "snippet": "# [FastAPI] study notes [FastAPI] uses Python type annotations to describe request parameters and response models. Pydantic performs [validation] for structured request data. Invalid input produces a 422 response \u2026 ",
+      "score": 1.254648040617059
+    }
+  ]
+}
+User statistics: {'collections': 1, 'documents': 3, 'indexed_chunks': 3, 'document_statuses': {'ready': 3}}
+Demo successful. Removing the demo collection and revoking its session.
+An empty, randomly named demo account remains in the local database.
